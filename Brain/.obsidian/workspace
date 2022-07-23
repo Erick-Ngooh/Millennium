@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "22deb7c58ed086fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "e782931f77365e31",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "03.PERMANENT/ARTISTIQUE/Sans titre.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a59e0fdaa79699dd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a6ab455dca04c8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9084f63ad5c0449",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "33257cac1a9a8920",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 535
+  },
+  "right": {
+    "id": "673ae3d4ee48a534",
+    "type": "split",
+    "children": [
+      {
+        "id": "84b9b89970fbc9aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7238c3234a88d48",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "03.PERMANENT/ARTISTIQUE/Sans titre.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e782931f77365e31",
+  "lastOpenFiles": [
+    "03.PERMANENT/ARTISTIQUE/Sans titre.md",
+    "03.PERMANENT/UNIX/Processus/Comment Obtenir l'état de sortie d'un processus enfant ?.md",
+    "03.PERMANENT/UNIX/Processus/C'est quoi l'etat de sortie d'un processus.md",
+    "03.PERMANENT/UNIX/Fichier & Entre Sortie/Comment manipuler des repertoire ?.md",
+    "03.PERMANENT/UNIX/Fichier & Entre Sortie/Comment lire dans un fichier ?.md",
+    "03.PERMANENT/UNIX/Fichier & Entre Sortie/Comment faire des redirection en c ?.md",
+    "03.PERMANENT/UNIX/Fichier & Entre Sortie/Comment faire des operation sur les fichier sur Unix ?.md",
+    "03.PERMANENT/UNIX/Fichier & Entre Sortie/Comment ecrire sur un fichier ?.md",
+    "03.PERMANENT/UNIX/Fichier & Entre Sortie/Comment Accès aux métadonnées des fichiers ?.md",
+    "03.PERMANENT/UNIX/Fichier & Entre Sortie/C'est quoi un Système de fichiers virtuel.md"
+  ]
+}

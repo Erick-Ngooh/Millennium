@@ -1,0 +1,83 @@
+
+number_of_philosophers = 5 
+number_of_mutex = 5 
+struct 
+{
+    tabs_fourchette;
+    tabs_philosophers;
+}
+
+long long    timestamp(void)
+{
+    struct timeval    tv;
+
+    gettimeofday(&tv, NULL);
+    return ((tv.tv_sec) * 1000 + (tv.tv_usec / 1000));
+}
+
+ft_repas(struck all)
+{
+    print timestamp_in_ms X has taken a fork
+    print timestamp_in_ms X has taken a fork
+    print timestamp_in_ms X is eating
+    print timestamp_in_ms X is sleeping
+    print timestamp_in_ms X is thinking
+◦   print timestamp_in_ms X died
+} 
+
+void    init_philo(struck all)
+{
+    int i;
+
+    all->tabs_philosophers = malloc(number_of_philosophers + 1);
+    memset(all->tabs_philosophers, 0, number_of_philosophers + 1);
+    all->tabs_fourchette = malloc(number_of_mutex + 1);
+    memset(all->tabs_fourchette, 0, number_of_philosophers);
+    i = -1;
+    while (++i < number_of_philosophers)
+        all->tabs_fourchette[i] = mutext_init;
+        all->tabs_philosophers[i] = thread_init;
+}
+
+void run_philo(struck all)
+{
+    int i;
+
+    i = -1; 
+    start
+    while (all->tabs_philosophers[i])
+        thread_join(all->tabs_philosophers[i])
+}
+
+void    destroy_philo(struck all)
+{
+    int i;
+
+    i = -1;
+    while (all->tabs_fourchette[++i])
+        destory_mutex(all->tabs_fourchette(i));
+}
+
+int main()
+{
+    init_philo();
+}
+mutex  5
+thread 1 eat 
+mutex  1
+
+mutex  1 
+thread 2  
+mutex  2 
+
+mutex  2
+thread 3 
+mutex  3
+
+mutex  3
+thread 4
+mutex  4 
+
+mutex  4
+thread 5
+mutex  5
